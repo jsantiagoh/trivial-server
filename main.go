@@ -15,5 +15,6 @@ func main() {
 		})
 	})
 
+	log.Println("Running at :8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
